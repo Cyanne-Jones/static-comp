@@ -1,0 +1,203 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: blanchedalmond;
+  background: linear-gradient(#653A5C, #2d272b);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: linear-gradient(#252024, #453F43, #252024);
+  height: 100px;
+}
+
+h1 {
+  margin: 0px;
+  margin-left: 15px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 15px;
+  width: 100%;
+}
+
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* NAV BAR */
+
+.nav-bar-button{
+  height: 55%;
+  display: flex;
+  background-color: rgba(193, 185, 228, 0.2);
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.nav-bar-text,
+.user-login-text {
+  margin: 2px;
+}
+
+.nav-bar-text {
+  font-size: 17px;
+}
+
+.nav-bar-icon {
+  height: 20px;
+}
+
+/* USER LOGIN */
+.user-login {
+  transform: translatex(30px)
+}
+
+.user-login-icon {
+  height: 15px;
+}
+
+.user-login,
+.logo-box {
+  display: flex;
+  padding: 5px;
+}
+
+.user-login-icon {
+  transform: translateY(5px);
+}
+
+.boot-logo {
+  height: 40px;
+  transform: translateY(10px)
+}
+
+.logo-box {
+  margin-top: 5px;
+}
+
+/* ADVENTURER CARDS */
+
+.card {
+  background: linear-gradient(#3B868A, #184547);
+  height: 400px;
+  width: 320px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px 1px #F67745;
+}
+
+.adventurer-icon-img {
+  height: 35px;
+  margin: 5px;
+}
+
+.adventurer-icon-div,
+.level-classification {
+  height: 45px;
+  width: 45px;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 5px;
+}
+.adventurer-icon-div{
+  background: linear-gradient(#F67745, #FBAD8E);
+}
+
+.adventurer-photo {
+  width: 100%;
+  height: 130px;
+  background-color: #C6EC6C;
+  display: flex;
+  justify-content: space-between;
+  color: #653A5C;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 5px solid #653A5C
+}
+
+.level-classification {
+  background-color: rgba(59, 95, 138, 0.3);
+}
+
+.level-word,
+.level-number {
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.level-number {
+  font-size: 22px;
+  transform: translateY(-7px);
+}
+
+.adventurer-name-and-age {
+  margin-left: 10px;
+}
+
+.name {
+  margin: 7px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.age {
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.flavortext-div {
+  background-color: rgba(114, 190, 107, 0.5);
+  margin: 5px;
+  width: 90%;
+  margin-left: 15px;
+  border-radius: 2px;
+  height: 100px;
+}
+
+.flavortext {
+  text-align: center;
+  padding: 5px;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.adventure-count {
+  width: 150px;
+}
+
+.adventure-count-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  text-align: center;
+}
+
+.adventure-count-number {
+  margin: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
